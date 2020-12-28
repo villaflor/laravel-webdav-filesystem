@@ -1,6 +1,13 @@
 {
     "name": "villaflor/laravel-webdav-filesystem",
     "description": "WebDAV adapter extender for Laravel's filesystem",
+    "keywords": [
+        "laravel",
+        "filesystem",
+        "webdav",
+        "flysystem-webdav"
+    ],
+    "homepage": "https://github.com/villaflor/laravel-webdav-filesystem",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,7 +16,20 @@
             "email": "villaflor@live.com"
         }
     ],
+    "require": {
+        "php": "^7.4"
+    },
     "require-dev": {
         "orchestra/testbench": "^6.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Villaflor\\WebdavAdapter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Villaflor\\WebdavAdapter\\Tests\\": "tests/"
+        }
     }
 }
