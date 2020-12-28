@@ -1,0 +1,15 @@
+{
+    "name": "villaflor/laravel-webdav-filesystem",
+    "description": "WebDAV adapter extender for Laravel's filesystem",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Anthony M. Villaflor",
+            "email": "villaflor@live.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.7"
+    }
+}
